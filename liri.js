@@ -2,6 +2,7 @@ require("dotenv").config();
 var keys = require("./keys.js");
 var axios = require("axios");
 var Spotify = require('node-spotify-api');
+var moment = require("moment")
 var fs = require("fs");
 
 
@@ -36,6 +37,16 @@ if (appSearch === "spotify-this-song") {
     }
 }
 
+if (appSearch === "concert-this") {
+    if (userSearch === null || userSearch === undefined || userSearch.length === 0) {
+        console.log("No artist entered.");
+        console.log("Please enter an artist name.")
+    }
+    else {
+        concertSearch()
+    }
+}
+
 if (appSearch === "do-what-it-says") {
     fs.readFile("random.txt", "utf8", function (err, dataText) {
         if (err) {
@@ -60,8 +71,20 @@ function movieSearch() {
                     "Plot: " + response.data.Plot
                 ].join("\n")
                 console.log(movieData)
-            }
-        )
+            })
+}
+
+function concertSearch() {
+axios.get("https://rest.bandsintown.com/artists/" + userSearch + "/events?app_id=51826f6429a8523d53cb0e14b5b43e7a").then(
+    function(response) {
+        
+        var concertData = [
+            "Venue Name: " + response.data[0].venue.name,
+            "Venue Location: " + response.data[0].venue.city + ", " + response.data[0].venue.region + " " + response.data[0].venue.country,
+            "Event Date: " + moment(response.data[0].datetime).format('MMMM Do YYYY, h:mm:ss a') 
+        ]
+        console.log(concertData);
+    })
 }
 
 function spotifySearch() {
