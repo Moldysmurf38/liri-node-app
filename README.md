@@ -48,39 +48,39 @@ moment: https://www.npmjs.com/package/moment
 
 Open the liri app folder in your terminal:
 
-![Liri App Photo](https://github.com/Moldysmurf38/liri-node-app/Example_Images/liriapp1.png)
+![Liri App Photo](https://github.com/Moldysmurf38/liri-node-app/tree/master/Example_Images/liriapp1.png)
 
 How to look up a song from Spotify:
 
-![Liri App Photo](https://github.com/Moldysmurf38/liri-node-app/Example_Images/liriapp2.png)
+![Liri App Photo](https://github.com/Moldysmurf38/liri-node-app/tree/master/Example_Images/liriapp2.png)
 
 Your result:
 
-![Liri App Photo](https://github.com/Moldysmurf38/liri-node-app/Example_Images/liriapp3.png)
+![Liri App Photo](https://github.com/Moldysmurf38/liri-node-app/tree/master/Example_Images/liriapp3.png)
 
 How to look up a movie from OMDB:
 
-![Liri App Photo](https://github.com/Moldysmurf38/liri-node-app/Example_Images/liriapp4.png)
+![Liri App Photo](https://github.com/Moldysmurf38/liri-node-app/tree/master/Example_Images/liriapp4.png)
 
 Your result:
 
-![Liri App Photo](https://github.com/Moldysmurf38/liri-node-app/Example_Images/liriapp5.png)
+![Liri App Photo](https://github.com/Moldysmurf38/liri-node-app/tree/master/Example_Images/liriapp5.png)
 
 How to look up a concert for an artist:
 
-![Liri App Photo](https://github.com/Moldysmurf38/liri-node-app/Example_Images/liriapp6.png)
+![Liri App Photo](https://github.com/Moldysmurf38/liri-node-app/tree/master/Example_Images/liriapp6.png)
 
 Your result:
 
-![Liri App Photo](https://github.com/Moldysmurf38/liri-node-app/Example_Images/liriapp7.png)
+![Liri App Photo](https://github.com/Moldysmurf38/liri-node-app/tree/master/Example_Images/liriapp7.png)
 
 How to read and execute a command from the txt file:
 
-![Liri App Photo](https://github.com/Moldysmurf38/liri-node-app/Example_Images/liriapp8.png)
+![Liri App Photo](https://github.com/Moldysmurf38/liri-node-app/tree/master/Example_Images/liriapp8.png)
 
 Your result:
 
-![Liri App Photo](https://github.com/Moldysmurf38/liri-node-app/Example_Images/liriapp9.png)
+![Liri App Photo](https://github.com/Moldysmurf38/liri-node-app/tree/master/Example_Images/liriapp9.png)
 
 ### **Author(s):**
 
