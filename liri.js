@@ -48,11 +48,32 @@ if (appSearch === "concert-this") {
 }
 
 if (appSearch === "do-what-it-says") {
-    fs.readFile("random.txt", "utf8", function (err, dataText) {
-        if (err) {
+    fs.readFile("random.txt", "utf8", function (err, data) {
+        //console.log(data);
+        var spotify = new Spotify({
+            id: keys.spotify.id,
+            secret: keys.spotify.secret
+        })
+        var userSearch = data;
+
+        spotify.search({ type: 'track', query: userSearch }, function (err, response) {
+            if (err) {
+                return console.log('Error occurred: ' + err);
+            }
+            var keyTrack = response.tracks.items[0]
+    
+            var trackData = [
+    
+                "Song Title: " + keyTrack.name,
+                "Artist(s): " + keyTrack.artists[0].name,
+                "Album Name: " + keyTrack.album.name,
+                "Spotify URL: " + keyTrack.external_urls.spotify
+            ].join("\n")
+    
+            console.log(trackData)
+        });        if (err) {
             throw err;
-        }
-            spotifySearch()
+        }    
     })
 }
 
