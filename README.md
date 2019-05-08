@@ -44,6 +44,44 @@ OMDB API: http://www.omdbapi.com/
 Bandsintown API: http://www.artists.bandsintown.com/bandsintown-api
 moment: https://www.npmjs.com/package/moment
 
+### **Example Queries:**
+
+Open the liri app folder in your terminal:
+
+![Liri App Photo](/images/liriapp1.png)
+
+How to look up a song from Spotify:
+
+![Liri App Photo](/images/liriapp2.png)
+
+Your result:
+
+![Liri App Photo](/images/liriapp3.png)
+
+How to look up a movie from OMDB:
+
+![Liri App Photo](/images/liriapp4.png)
+
+Your result:
+
+![Liri App Photo](/images/liriapp5.png)
+
+How to look up a concert for an artist:
+
+![Liri App Photo](/images/liriapp6.png)
+
+Your result:
+
+![Liri App Photo](/images/liriapp7.png)
+
+How to read and execute a command from the txt file:
+
+![Liri App Photo](/images/liriapp8.png)
+
+Your result:
+
+![Liri App Photo](/images/liriapp9.png)
+
 ### **Author(s):**
 
 David Wilson
