@@ -18,31 +18,31 @@ node liri do-what-it-says (reads content from a text file content and makes a qu
 ### **How to Use:**
 
 Open the liri app folder in your terminal: <br/>
-![Liri App Photo](https://github.com/Moldysmurf38/Example_Images/liriapp1.png)
+![Liri App Photo](https://github.com/Moldysmurf38/liri-node-app/blob/master/Example_Images/liriapp1.png)
 
 How to look up a song from Spotify: <br/>
-![Liri App Photo](https://github.com/Moldysmurf38/Example_Images/liriapp2.png)
+![Liri App Photo](https://github.com/Moldysmurf38/liri-node-app/blob/master/Example_Images/liriapp2.png)
 
 Your result: <br/>
-![Liri App Photo](https://github.com/Moldysmurf38/Example_Images/liriapp3.png)
+![Liri App Photo](https://github.com/Moldysmurf38/liri-node-app/blob/master/Example_Images/liriapp3.png)
 
 How to look up a movie from OMDB: <br/>
-![Liri App Photo](https://github.com/Moldysmurf38/Example_Images/liriapp4.png)
+![Liri App Photo](https://github.com/Moldysmurf38/liri-node-app/blob/master/Example_Images/liriapp4.png)
 
 Your result: <br/>
-![Liri App Photo](https://github.com/Moldysmurf38/Example_Images/liriapp5.png)
+![Liri App Photo](https://github.com/Moldysmurf38/liri-node-app/blob/master/Example_Images/liriapp5.png)
 
 How to look up a concert for an artist: <br/>
-![Liri App Photo](https://github.com/Moldysmurf38/Example_Images/liriapp6.png)
+![Liri App Photo](https://github.com/Moldysmurf38/liri-node-app/blob/master/Example_Images/liriapp6.png)
 
 Your result: <br/>
-![Liri App Photo](https://github.com/Moldysmurf38/Example_Images/liriapp7.png)
+![Liri App Photo](https://github.com/Moldysmurf38/liri-node-app/blob/master/Example_Images/liriapp7.png)
 
 How to read and execute a command from the txt file: <br/>
-![Liri App Photo](https://github.com/Moldysmurf38/Example_Images/liriapp8.png)
+![Liri App Photo](https://github.com/Moldysmurf38/liri-node-app/blob/master/Example_Images/liriapp8.png)
 
 Your result: <br/>
-![Liri App Photo](https://github.com/Moldysmurf38/Example_Images/liriapp9.png)
+![Liri App Photo](https://github.com/Moldysmurf38/liri-node-app/blob/master/Example_Images/liriapp9.png)
 
 ### **Prerequisites:**
 
