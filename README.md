@@ -51,9 +51,9 @@ Runs in Command Prompt or Git Bash.
 You will need to obtain your own Spotify API client ID and Secret (see api docs here: https://developer.spotify.com/documentation/web-api/). create a file in the base directory of the app and name it keys.js
 
 Put both into a file keys.js like so: <br/>
-exports.spotify = {
-  id: [Your Spotify Id goes here],
-  secret: [Your Spotify Secret goes here]
+exports.spotify = { <br/>
+  id: [Your Spotify Id goes here], <br/>
+  secret: [Your Spotify Secret goes here] <br/>
 };
 
 ### **Installing:**
