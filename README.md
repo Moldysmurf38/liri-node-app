@@ -67,11 +67,11 @@ Add more APIs for different user queries <br/>
 
 ### **Built With:**
 
-Axios: https://www.npmjs.com/package/axios
-Spotify API : https://www.npmjs.com/package/node-spotify-api
-OMDB API: http://www.omdbapi.com/
-Bandsintown API: http://www.artists.bandsintown.com/bandsintown-api
-moment: https://www.npmjs.com/package/moment
+Axios: https://www.npmjs.com/package/axios <br/>
+Spotify API : https://www.npmjs.com/package/node-spotify-api <br/>
+OMDB API: http://www.omdbapi.com/ <br/>
+Bandsintown API: http://www.artists.bandsintown.com/bandsintown-api <br/>
+moment: https://www.npmjs.com/package/moment <br/>
 
 ### **Author(s):**
 
