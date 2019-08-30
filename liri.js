@@ -63,7 +63,8 @@ if (appSearch === "do-what-it-says") {
                 "Spotify URL: " + keyTrack.external_urls.spotify
             ].join("\n")
             console.log(trackData);
-        });        if (err) {
+        });
+        if (err) {
             throw err;
         };
     });
@@ -87,7 +88,7 @@ function movieSearch() {
 };
 
 function concertSearch() {
-axios.get("https://rest.bandsintown.com/artists/" + userSearch + "/events?app_id=51826f6429a8523d53cb0e14b5b43e7a").then(
+axios.get("https://rest.bandsintown.com/artists/" + userSearch + "/events?app_id=81a99f21409790460407495ad0d25377").then(
     function(response) {
         var concertData = [
             "Venue Name: " + response.data[0].venue.name,
