@@ -79,6 +79,7 @@ Spotify API : https://www.npmjs.com/package/node-spotify-api <br/>
 OMDB API: http://www.omdbapi.com/ <br/>
 Bandsintown API: http://www.artists.bandsintown.com/bandsintown-api <br/>
 moment: https://www.npmjs.com/package/moment <br/>
+dotenv: https://www.npmjs.com/package/dotenv
 
 ### **Author(s):**
 
