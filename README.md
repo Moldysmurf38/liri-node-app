@@ -56,6 +56,13 @@ exports.spotify = { <br/>
   secret: [Your Spotify Secret goes here] <br/>
 };
 
+You will need to get your own BandsInTown API key here: https://manager.bandsintown.com/support/bandsintown-api
+
+Create a file named .env inside the main directory of the app.
+
+Inside the .env file, type out the following: <br/>
+BANDSINTOWN_API="[Your BandsInTown api key goes here]"
+
 ### **Installing:**
 
 Open the base directory of the app inside your Command Prompt or Git Bash window. Type into the window the command: npm install. Wait for all the required npm packages to be installed, before typing the user commands listed in the Get Started section.

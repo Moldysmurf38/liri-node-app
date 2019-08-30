@@ -3,6 +3,7 @@ var axios = require("axios");
 var Spotify = require('node-spotify-api');
 var moment = require("moment")
 var fs = require("fs");
+require("dotenv").config();
 
 var inputData = process.argv;
 var appSearch = inputData[2];
@@ -88,7 +89,7 @@ function movieSearch() {
 };
 
 function concertSearch() {
-axios.get("https://rest.bandsintown.com/artists/" + userSearch + "/events?app_id=81a99f21409790460407495ad0d25377").then(
+axios.get("https://rest.bandsintown.com/artists/" + userSearch + "/events?app_id="+ process.env.BANDSINTOWN_API).then(
     function(response) {
         var concertData = [
             "Venue Name: " + response.data[0].venue.name,
